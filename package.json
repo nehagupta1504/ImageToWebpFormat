@@ -1,0 +1,29 @@
+{
+  "name": "imagetowebpimage",
+  "version": "1.0.0",
+  "description": "Image to webp format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehagupta1504/ImageToWebpFormat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehagupta1504/ImageToWebpFormat/issues"
+  },
+  "homepage": "https://github.com/nehagupta1504/ImageToWebpFormat#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-webp": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
