@@ -1,1 +1,2 @@
 # ImageToWebpFormat
+# Using npm imagemin 
